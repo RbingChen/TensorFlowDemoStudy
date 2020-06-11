@@ -16,5 +16,6 @@ def attention(query,key,max_seq_len):
     assert len(tf.shape(query))== 3
     assert len(tf.shape(key))== 2
     assert int(tf.shape(key)[-1])== int(tf.shape(query)[-1])
+    # 该用哪种乘法得到 [B,N]
     query * key
 
