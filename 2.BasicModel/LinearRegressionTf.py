@@ -2,6 +2,7 @@
 
 
 import tensorflow.compat.v1 as tf
+
 from sklearn import datasets
 import numpy as np
 import os
